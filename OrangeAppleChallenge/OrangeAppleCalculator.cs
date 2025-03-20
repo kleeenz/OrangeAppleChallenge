@@ -28,11 +28,8 @@ namespace OrangeAppleChallenge
     }
     class OrangeAppleCalculator: IOrangeApple
     {
-        
         public int GetCountOfApples(point p)
         {
-            p = new point() { s = 7, t = 10, a = 4, b = 12, apples = new List<int> { 2, 3, -4 }, oranges = new List<int> { 3, -2, -4 } };
-
             int CountNoOfApples = 0;
             var storeResult = new List<int>();
             int addedApples;
@@ -58,7 +55,6 @@ namespace OrangeAppleChallenge
 
         public int GetCountOfOranges(point p)
         {
-            p = new point() { s = 7, t = 10, a = 4, b = 12, apples = new List<int> { 2, 3, -4 }, oranges = new List<int> { 3, -2, -4 } };
             int CountNoOfOranges = 0;
             var storeResult = new List<int>();
             int addedOranges;
